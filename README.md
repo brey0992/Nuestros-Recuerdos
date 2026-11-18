@@ -1,15 +1,12 @@
 # Nuestros Recuerdos
 
-Álbum de fotos con amigos hecho en React + Vite + Framer Motion: capítulos con frases,
-galería estilo Fotos del iPhone, visor con deslizar, modo "recuerdo" a pantalla completa
-y música de fondo generada en el navegador.
-
+Álbum de fotos con mis amigos hecho econ React Vite
 ## Cómo correrlo
 
 ```bash
 npm install
-npm run dev       # abre http://localhost:5173
-npm run build     # versión final en dist/
+npm run dev       
+npm run build     
 ```
 
 ## Agregar fotos
@@ -28,8 +25,4 @@ src/components/      Hero, Galería, Visor, Modo recuerdo, Carta…
 src/lib/music.js     música de fondo (Web Audio)
 src/lib/hooks.js     animaciones y utilidades compartidas
 scripts/fotos.mjs    optimizador de fotos
-```
 
-## Publicar
-
-`npm run build` y sube la carpeta `dist/` a Netlify (app.netlify.com/drop), Vercel o GitHub Pages.
